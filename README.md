@@ -1,1 +1,1 @@
-# azure-cloud-detection
+# Azure Cloud Detection
