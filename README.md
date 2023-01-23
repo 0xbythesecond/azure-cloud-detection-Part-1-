@@ -1,4 +1,4 @@
-# Azure Cloud Detection
+# Azure Cloud Detection 🕵️
 
 <h2>In this lab, we will walk through following:</h2>
 <ul>
@@ -84,7 +84,7 @@ Select your Azure Subscription from the list provided. Upon selection, the follo
 
 <p align="center"> <img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Enable All Microsoft Defender for Cloud Plans"/></p>
 
-After enabling the plan, Navigate back to the homepage for Defender for Cloud and select 'Workload Protections' on the left pane. That will then present the following screen:
+After enabling the plan, navigate back to the homepage for Defender for Cloud and select 'Workload Protections' on the left pane. That will then present the following screen:
 
 <p align="center"> <img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Enable All Microsoft Defender for Cloud Plans"/></p>
 
@@ -124,7 +124,15 @@ After creating the Log Analytics Workspace search Sentinel in the search bar.
 
 <p align="center"> <img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt=" Review-Create Log Analytics Workspace"/></p>
 
-:eye
+Scroll to the bottom of the page and select Add.
+
+<p align="center"> <img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt=" Select Add button"/></p>
+
+<a href=""> Part 2: Getting Data into Sentinel </a>
+
+
+
+
 
 
 
