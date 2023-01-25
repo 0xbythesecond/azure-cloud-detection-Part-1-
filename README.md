@@ -22,16 +22,18 @@ Use this <a href="https://azure.microsoft.com/en-us/free/"> link </a> to create 
 <br />
 When working with Azure Resources, Resource groups are logical containers for all our resources. We will first create a resource group to group all the resources we will use for this lab. These resources will include a Windows 10 VM, Log Analytics Workspace, and an Azure Sentinel Resource.
 
-Search “Resource Group” in the Azure Portal Search Bar and Follow the on-screen prompts for the basic tab.
-<p align="center"> <img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Create Resource Group"/></p>
+Search “Resource Group” in the Azure Portal Search Bar and Follow the on-screen prompts for the basic tab. Tags will not be required for this lab, so we can move forward by selecting to 'Review + Create' to move forward. Once that's done, you can choose to 'Create' to finalize the creation of the Resource Group. 
+<p align="center"> <img src="https://i.imgur.com/RQqOGqR.png" height="50%" width="50%" alt="Create Resource Group"/></p>
 
+Select 'Create' here
+<p align="center"> <img src="https://i.imgur.com/7vjp64F.png" height="50%" width="50%" alt="Create Final Step of Resource Group"/></p>
 
-Step 3: Deploy a Virtual Machine (VM)
+<b> Step 3: Deploy a Virtual Machine (VM) </b>
 
 In this lab, we will be collecting our data from a Windows Virtual Machine. To deploy a Virtual Machine you can do a quick search in the Azure portal search bar for "Virtual Machine" and once Virtual Machine is selected, you will then choose 'Create' to begin the steps of creation. 
 
 #### Click Create:
-<p align="center"> <img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Create Virtual Machine"/></p>
+<p align="center"> <img src="https://i.imgur.com/tO1HB49.png" height="50%" width="50%" alt="Create Virtual Machine"/></p>
 
 
 Use the resource group created in the first step and fill out the required field to create your virtual machine. In the image above, the (US) East US is selected as the region that will house the Virtual Machine. 
