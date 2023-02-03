@@ -137,7 +137,7 @@ After creating the Log Analytics Workspace search 'Sentinel' in the search bar.
 
 <p align="center"> <img src="https://i.imgur.com/ggqb8X8.png" height="50%" width="50%" alt=" Review-Create Log Analytics Workspace"/></p>
 
-Scroll to the bottom of the page and select Add.
+Once you have selected your workspace, scroll to the bottom of the page and select Add.
 
 <p align="center"> <img src="https://i.imgur.com/DMY2CLx.png" height="50%" width="50%" alt=" Select Add button"/></p>
 
