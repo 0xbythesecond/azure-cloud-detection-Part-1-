@@ -1,16 +1,16 @@
 # Azure Cloud Detection 🕵️
 
 <h2>In this lab, we will walk through following:</h2>
-<ul>
-<li>Configure and Deploy Azure Resources such as Log Analytics Workspace, Virtual Machines, and Azure Sentinel.</li>
-<li>Implement Network and Virtual Machine Security Best Practices.</li>
-<li>Utilize Data Connectors to bring data into Sentinel for Analysis.</li>
-<li>Understand Windows Security Event logs.</li>
-<li>Configure Windows Security Policy Settings.</li>
-<li>Utilize KQL to query Logs.</li>
-<li>Write Custom Analytic Rules to detect Microsoft Security Events.</li>
-<li>Utilizing MITRE ATT&CK to map adversary tactics, techniques, detection, and mitigation procedures</li>
-</ul>
+
+Configure and Deploy Azure Resources such as Log Analytics Workspace, Virtual Machines, and Azure Sentinel.</li>
+Implement Network and Virtual Machine Security Best Practices.</li>
+Utilize Data Connectors to bring data into Sentinel for Analysis.</li>
+Understand Windows Security Event logs.</li>
+Configure Windows Security Policy Settings.</li>
+Utilize KQL to query Logs.</li>
+Write Custom Analytic Rules to detect Microsoft Security Events.
+Utilizing MITRE ATT&CK to map adversary tactics, techniques, detection, and mitigation procedures
+
 
 #
 
