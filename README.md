@@ -1,6 +1,6 @@
 # Azure Cloud Detection 🕵️
 
-<h2>In this lab, we will walk through following:</h2>
+### In this lab, we will walk through following:
 
 - Configure and Deploy Azure Resources such as Log Analytics Workspace, Virtual Machines, and Azure Sentinel.
 - Implement Network and Virtual Machine Security Best Practices.
@@ -16,11 +16,18 @@ I want to thank and credit the persons at Cyberwox Academy for creating this lab
 
 #
 
-<b>Step 1: Create an Azure Account:</b>
+#### Step 1: Create an Azure Account:
 <br />
 Use this <a href="https://azure.microsoft.com/en-us/free/"> link </a> to create your Account. This process will automatically set up your account and associated Azure Subscription.
 
-<b>Step 2: Create a Resource Group:</b>
+#
+
+<details>
+<summary>
+  
+#### Step 2: Create a Resource Group
+  
+  </summary>  
 <br />
 When working with Azure Resources, Resource groups are logical containers for all our resources. We will first create a resource group to group all the resources we will use for this lab. These resources will include a Windows 10 VM, Log Analytics Workspace, and an Azure Sentinel Resource.
 
@@ -30,8 +37,17 @@ Search “Resource Group” in the Azure Portal Search Bar and Follow the on-scr
 Select 'Create' here
 <p align="center"> <img src="https://i.imgur.com/7vjp64F.png" height="50%" width="50%" alt="Create Final Step of Resource Group"/></p>
 
-<b> Step 3: Deploy a Virtual Machine (VM) </b>
-
+  </details>
+  
+  #
+  
+ <details> 
+  
+ <summary>  
+   
+#### Step 3: Deploy a Virtual Machine (VM) 
+   
+   </summary>
 In this lab, we will be collecting our data from a Windows Virtual Machine. To deploy a Virtual Machine you can do a quick search in the Azure portal search bar for "Virtual Machine" and once Virtual Machine is selected, you will then choose 'Create' to begin the steps of creation. 
 
 #### Click Create:
@@ -44,13 +60,13 @@ Use the resource group created in the first step and fill out the required field
 
 Use all the default settings on the Basics Tab and fill in the appropriate field.
 
-<h6>*Please remember your admin username and password as this is how you will authenticate to the Virtual Machine.</h6>
+  >**Note**: *Please remember your admin username and password as this is how you will authenticate to the Virtual Machine.*
 
 For this lab the default settings in Disks, Networking, Management, Advanced, and Tags are sufficient. We will make the appropriate network changes later.
 
 Click Review + create to start the creation of your virtual machine. After selecting to 'Review + Create', you will see a summary of the what has been selected in creating the VM. 
 
-<h6>Important: Be sure to select the check box confirming 'I confirm I have an eligible Windows 10 license with multi-tenant hosting rights'.Without this selected, it will not allow the validation to process as "passed" successfully. </h6>
+  >**Note**: *Be sure to select the check box confirming `I confirm I have an eligible Windows 10 license with multi-tenant hosting rights`. Without this selected, it will not allow the validation to process as "passed" successfully.*
 
 <p align="center"> <img src="https://i.imgur.com/FzvKNU1.png" height="50%" width="50%" alt="Select default settings for Virtual Machine"/></p>
 
@@ -117,9 +133,16 @@ Now that your JIT has been enabled, we will go to your VM settings and click Con
 If we go to the networking tab for our VM we can see our rules have been updated. Now RDP traffic is allowed for a certain amount of time only from the IP of your computer. Anyone else who attempts to establish and RDP connection will be blocked via our Just in Time Access rules.
 
 <p align="center"> <img src="https://i.imgur.com/JovRj9g.png" height="50%" width="50%" alt="RDP is allowed for certain traffic"/></p>
+</details>
 
-Step 4: Create Log Analytics Workspace and Deploy Sentinel
+#
 
+<details>
+<summary>
+  
+#### Step 4: Create Log Analytics Workspace and Deploy Sentinel
+
+</summary>
 When working with Log Data in Azure we need somewhere to store/operate that data. Log Analytics workspace is used to collect and store log data from Azure Resources.
 
 To configure a Log Analytic workspace:
