@@ -1,5 +1,7 @@
 # Azure Cloud Detection 🕵️
 
+![Detection Lab](https://github.com/0xbythesecond/azure-cloud-detection/blob/main/Detection%20Lab.png?raw=true)
+
 ### In this lab, we will walk through following:
 
 - Configure and Deploy Azure Resources such as Log Analytics Workspace, Virtual Machines, and Azure Sentinel.
