@@ -17,10 +17,15 @@ I want to thank and credit the persons at Cyberwox Academy for creating this lab
 
 
 #
-
+<details>
+<summary>
+    
 #### Step 1: Create an Azure Account:
-<br />
+    
+</summary>
+
 Use this <a href="https://azure.microsoft.com/en-us/free/"> link </a> to create your Account. This process will automatically set up your account and associated Azure Subscription.
+</details>
 
 #
 
